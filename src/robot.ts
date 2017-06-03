@@ -1,14 +1,10 @@
-import { IAiutante } from './aiutante';
+import { ISminuzzatore } from './sminuzzatore';
 
 export class Robot
-    implements IAiutante {
+    implements ISminuzzatore {
 
     sminuzza() {
         return 'sminuzzato';
-    }
-
-    pulisci() {
-        return 'io non so pulure';
     }
 
 }

@@ -1,6 +1,8 @@
-export interface IAiutante {
+import { ISminuzzatore } from './sminuzzatore';
 
-    sminuzza(): string;
+export interface IAiutante
+    extends ISminuzzatore {
+
     pulisci(): string;
     
 }

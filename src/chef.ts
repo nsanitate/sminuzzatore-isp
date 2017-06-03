@@ -1,9 +1,9 @@
-import { IAiutante } from './aiutante';
+import { ISminuzzatore } from './sminuzzatore';
 
 export class Chef {
 
-    faiSminuzzare(aiutante: IAiutante) {
-        return aiutante.sminuzza();
+    faiSminuzzare(sminuzzatore: ISminuzzatore) {
+        return sminuzzatore.sminuzza();
     }
 
 }

@@ -24,7 +24,7 @@ describe('Chef', () => {
         expect(actual).to.equal('sminuzzato');
     });
 
-    xit('dovrebbe far sminuzzare ad un robot', () => {
+    it('dovrebbe far sminuzzare ad un robot', () => {
         // Arrange
         const robot = new Robot();
 
